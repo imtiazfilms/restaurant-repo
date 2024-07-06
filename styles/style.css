@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Work Sans", sans-serif */
+*{
+    margin: 0;
+    padding: 0;
+}
+.btn-container{
+    text-align: center;
+}
+.btn{
+    padding: 21px 32px 21px 32px;
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.btn:hover {
+    background-image: linear-gradient(to top, greenyellow, rgb(82, 195, 3));
+    background-size: 100%;
+}
+
+#hero{
+    height: 100vh;
+    background: linear-gradient(0.00deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url(../assets/hero-bg.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero .hero-section{
+    width: 470px;
+    
+}
+.bottom-subtitel{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+}
+#hero .hero-section .subtitel{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.8;
+    margin-bottom: 6px;
+
+}
+#hero .hero-section .titel{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#hero .hero-section .discription{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 16;
+}
+
+#card-container{
+    width: 620px;
+    margin: 80px auto;
+}
+
+#card-container .titel{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+#card-container .subtitel{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+}
+
+#final-card-container {
+    margin-top: 23px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    font-family: Work Sans;
+
+}
+.card{
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+} 
+.card .image-box{
+    width: 200px;
+}
+.card .image-box img{
+    width: 100%;
+}
+.card .shop-name{
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+    padding: 7px 16px 7px 16px;
+    text-align: center;
+    margin-top: 10px;
+}
+/* .bottom-banner {
+    display: flex; 
+    align-items: center;
+  }
+.image {
+    width: 451px; 
+    height: auto;
+    margin-right: 20px;
+  } */
+
+.bottom-banner {
+    width: 620px;
+    margin: 50px auto;
+}
+.content-wrapper {
+    display: flex;
+    text-align: center;
+}
+
+.image {
+    width: 451px;
+    flex: 0 0 auto; 
+    margin-right: 20px; 
+}
+
+.image img {
+    max-width: 100%; 
+    height: auto;
+}
+.info {
+    margin: auto 0;
+}
+.info h1 {
+    color: rgb(16, 16, 16);
+    width: 378px;
+    font-family: Work Sans;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0%;
+    text-align: center;
+    display: inline-flex;
+    margin-bottom: 12px;
+ 
+}
+
+.p1{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0%;
+    text-align: left;    
+    opacity: 0.6;
+}
+.p2 {
+    
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+}
+.icon{
+    padding-top: 20px;
+    
+}
+.icon >ul > li{
+    list-style: none;
+    display: inline;
+}
